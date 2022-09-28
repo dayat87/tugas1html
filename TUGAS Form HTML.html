@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form HTML</title>
+</head>
+<body>
+	<h1>Form HTML</h1>
+	<hr>
+	<fieldset>
+		<legend>register</legend>
+	<form action="submit.php" method="POST">
+    <p><i>name</i> : <input type="text" name="username" /></p>
+    </form>
+
+    <p><label><i>Gender</i>:</label>
+	<input type="radio" name="Gender" value="pria"><i>Pria</i>
+	<input type="radio" name="Gender" value="wanita"><i>Wanita</i></p>
+
+	<form action="submit.php" method="POST">
+    <p><i>address</i>: <input type="text" name="username" /></p>
+    </form>
+
+    <form method="POST" action="response2.jsp" enctype="multipart/form-data">
+
+    <P><i>Country</i>:
+    <select name="hmmm">
+    <option value=’indonesia’>INDONESIA</option>
+    <option value=’jepang’>JEPANG</option>
+    <option value=’korea’>KOREA</option>
+    <option value=’besuki’>BESUKI</option>
+    <option value="jawa timur">JAWA TIMUR</option>
+	</select>
+	</P>
+
+    <p><i>Email</i> :<input type="text" name="username" /></p>
+
+    <p><i>Photo</i> :<input type="text" name="username" />
+    <input type='file' name='foto' /></p>
+     <p>
+    <label><input type="checkbox" name="remember" value="remember"/> Remember me</label>
+    </p> <input type='submit' name='tombol' value='kirim' />
+</fieldset>
+
+    <form action="proses.php" method="get">
+    <p><i>comment</i>:
+    <textarea name="alamat" rows="10" cols="40"></textarea>
+    
+    <input type='submit' name='tombol' value='kirim' />
+    <p> <a href="https://www.google.com/">google.com </a> <span style="color:steelblue;"> </span> link for your success way
+    </p>
+    <h1>form registrasi</h1>
+    
+    <hr> 
+    <p><font color="blue" face="comic sans ms" ><b>semoga ilmunya berkah</b></font></p><br>
+    <font color="blue" size="4" face="comic sans ms" ><b>bjorka<b></font><p> 
+
+    <img src="C:\Users\TOSHIBA\Documents\my folder(asal nyatat)\bjorka.jpeg" style="border-radius: 100%;" width="180" height="200" alt="photo"/>
+
+    <font size="4" color="magenta" face="comic sans ms" ><br>NAMA:MUHAMMAD ABDULLAH NURHIDAYAH</font><br>
+    <font size="4" color="magenta" face="comic sans ms" >NIM:202131050</font>
+
+	<table border="4" width="300">
+	<thead> <tr><th>NIM</th><th>Mahasiswa</th></tr> </thead>
+	<tbody> <tr><td>202131050</td><td>DAYAT</td></tr> </tbody> </table>
+
+</form>
+
+</body>
+</html>
